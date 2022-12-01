@@ -24,7 +24,6 @@ describe('Create Car', () => {
 
     expect(car).toHaveProperty('id');
     expect(car).toHaveProperty('available');
-    expect(car).toHaveProperty('created_at');
   });
 
   it('should not be able to create a car with an existent license plate', () => {
