@@ -15,6 +15,7 @@ class CarsRepositoryInMemory implements ICarsRepository {
       license_plate,
       category_id,
       specifications,
+      id,
     } = data;
     const car = new Car();
     Object.assign(car, {
@@ -26,6 +27,7 @@ class CarsRepositoryInMemory implements ICarsRepository {
       license_plate,
       category_id,
       specifications,
+      id,
     });
 
     this.cars.push(car);
