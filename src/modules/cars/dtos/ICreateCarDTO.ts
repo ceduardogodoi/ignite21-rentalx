@@ -1,3 +1,5 @@
+import { Specification } from "../infra/typeorm/entities/Specification";
+
 interface ICreateCarDTO {
   name: string;
   description: string;
@@ -6,6 +8,7 @@ interface ICreateCarDTO {
   license_plate: string;
   fine_amount: number;
   category_id: string;
+  specifications?: Specification[];
 }
 
 export { ICreateCarDTO };
