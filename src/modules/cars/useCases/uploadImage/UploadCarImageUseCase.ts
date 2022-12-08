@@ -1,4 +1,0 @@
-class UploadCarImageUseCase {
-}
-
-export { UploadCarImageUseCase };
